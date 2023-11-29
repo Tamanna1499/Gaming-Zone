@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/40de6330b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="main_container">
+    <h2>Try Not To Laugh Challenge</h2>
+    <div class="joke" id="joke">
+        Here goes the joke!
+    </div>
+
+    <audio id="sound1" src="sound.mp3" preload="auto"></audio>
+    <button class="btn" id="get_joke" onclick="document.getElementById('sound1').play();">
+        <i class="fa-solid fa-face-grin-squint-tears"></i>
+        Get Another Joke
+        <i class="fa-solid fa-face-grin-squint-tears"></i>
+
+    </button>
+</div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
